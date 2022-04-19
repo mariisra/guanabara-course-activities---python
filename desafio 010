@@ -1,0 +1,5 @@
+#crie um programa que leia quanto dinheiro uma pessoa tem na carteira e mostre quantos dólares ela pode comprar.
+#considere 1 dólar = 3,27 reais
+
+v = float(input("Digite quantos reais você tem:"))
+print("Você tem {:.2f} dólares.".format(v / 3,27))
