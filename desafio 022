@@ -1,0 +1,16 @@
+#crie um que leia o nome completo de uma pessoa e mostre: o nome com todas as letras minúsculas e maiúsculas; quantas letras ao todo (sem considerar espaços); quantas letras tem o primeiro nome.
+
+nome = input("Digite seu nome completo:")
+
+n1 = nome.lower()
+n2 = nome.upper()
+
+e = nome.count(" ")
+ef = len(nome) - e
+
+p = nome.find(" ")
+
+print(n1)
+print(n2)
+print(ef)
+print(p)
