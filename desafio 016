@@ -3,4 +3,4 @@
 import math
 
 v = float(input("Digite um número real qualquer:"))
-print("Sua porsão inteira é: {}.".format(math.floor(v)))
+print("Sua porsão inteira é: {}.".format(math.trunc(v)))
