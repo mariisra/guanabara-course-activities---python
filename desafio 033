@@ -1,0 +1,23 @@
+#faça um programa que leia três números e mostre queal é o mior e qual é o manor.
+
+v1 = int(input("Digite valor1 inteiro: "))
+v2 = int(input("Digite valor2 inteiro: "))
+v3 = int(input("Digite valor3 inteiro: "))
+
+if v1<v2 and v1<v3:
+  menor = v1
+if v2<v3 and v2<v1:
+  menor = v2
+if v3<v1 and v3<v2:
+  menor = v3
+
+print("O menor valor é {}.".format(menor))
+
+if v1>v2 and v1>v3:
+  maior = v1
+if v2>v3 and v2>v1:
+  maior = v2
+if v3>v1 and v3>v2:
+  maior = v3
+
+print("O maior valor é {}.".format(maior))
