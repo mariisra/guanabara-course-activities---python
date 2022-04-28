@@ -1,0 +1,13 @@
+#escreva um programa para aprovar o empréstimo bancário para a compra de uma casa; pergunte o valor da casa, o salário do comprador e em quantos anos ele vai pagar; a prestação mensal não pode esceder 30% do salário ou então o empréstimo será negado.
+
+v = float(input("Digite o valor da casa que você deseja comprar: "))
+s = float(input("Digite quanto você recebe de salário: "))
+a = float(input("Digite em quantos anos você deseja pagar todas as prestações (em meses): "))
+
+prestacao = v / a
+s2 = (s / 100) * 30
+
+if s2 >= prestacao:
+  print("Seu empréstimo no banco foi aprovado!Pois, sua prestação não excede 30% de seu salário.")
+else:
+  print("Seu empréstimo foi negado!Pois, a prestação excede 30% de seu salário.")
