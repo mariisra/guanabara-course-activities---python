@@ -1,0 +1,20 @@
+#a confederação nacional de natação precisa de um programa que leia o ano de nsacimento de um atleta e mostre sua categoria, de acordo com a idade; 9 anos mirim, 14 anod infantil, 19 anos junior, 25 anos senior, 25+ master.
+
+from datetime import date
+
+atual = date.today().year
+
+a = int(input("Digite o ano de seu nascimento: "))
+
+i = atual - a
+
+if i <= 9:
+  print("Categoria mirim.")
+elif i <= 14:
+  print("Categoria infantil.")
+elif i <= 19:
+  print("Categoria júnior.")
+elif i <= 25:
+  print("Categoria Sênior.")
+else:
+  print("Categoria master.")
