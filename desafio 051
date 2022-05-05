@@ -1,0 +1,8 @@
+#desenvolva um programa que leia o primeiro termo e a razão de uma PA; no final, mostre os 10 primeiros termos dessa progressão. 
+
+t = int(input("Digite o primeiro termo: "))
+r = int(input("Digite a razão: "))
+decimo_termo = t + (10 - 1) * r
+
+for c in range(t, decimo_termo + r, r):
+  print(c)
