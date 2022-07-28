@@ -1,4 +1,4 @@
-#faça um programa que leia três números e mostre queal é o mior e qual é o manor.
+#faça um programa que leia três números e mostre queal é o maior e qual é o menor.
 
 v1 = int(input("Digite valor1 inteiro: "))
 v2 = int(input("Digite valor2 inteiro: "))
